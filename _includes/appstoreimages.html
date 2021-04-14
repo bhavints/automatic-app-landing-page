@@ -16,7 +16,15 @@ $(function() {
             var appInfo = json.results[0];
 
             // Set favicon
-            $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
+            var $appIconHeader = $(".headerIcon");
+            if (!$appIconHeader.attr('src')) {
+                $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
+            }
+            else
+            {
+                $('link[rel="shortcut icon"]').attr("href", $appIconHeader.attr('src'));
+            }
+            
 
             // Set page title using the iOS app ID if it is not set manually in _config.yml
             var $pageTitle = $(".pageTitle");
@@ -31,7 +39,7 @@ $(function() {
             }
 
             // Set header app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconHeader = $(".headerIcon");
+            // var $appIconHeader = $(".headerIcon");
             if (!$appIconHeader.attr('src')) {
                 $($appIconHeader).attr("src", appInfo.artworkUrl512);
             }
