@@ -9,8 +9,8 @@ playstore_link                            :                                     
 presskit_download_link                    : https://docs.google.com/document/d/1-p8bfWR6Nhcnp_WtyyEJXmKvm6L5sYDkKqpCjAd7uIE/edit#                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Plan Odyssey                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : After 100 years, humans invented light-speed spacecraft that could send brave people a.k.a “adventurers” far away from Earth to explore the unknown. Several human-friendly planets had been discovered and verified by scientists. Exploration is filled with curiosity, hope, and peace. There is no envy, hostility, violence. This project is known as “Plan Odyssey”.
 
