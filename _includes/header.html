@@ -11,11 +11,12 @@
 			{% if page.url != '/' %}
 				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
 			{% else %}
-				<img class="headerIcon" src="assets/USC_logo.png">
+				<img class="headerIcon" src="{{ site.app_icon | relative_url }}">
 			{% endif %}
 			<div class="divider"></div>
 		</div>
 		<p class="headerName">{{ site.app_name }}</p>
+		<img src="assets/USC_logo.png">
 	</div>
 	<nav class="scroll">
 		<ul>
