@@ -1,8 +1,27 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
-
 <!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+    <div class="imageWrapper">
+            <div class="headerBackground">
+                <div class="container">
+                    {% include header.html %}
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/QIdhdIkoZZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {% include features.html %}
+                    {% include footer.html %}
+                    {% include appstoreimages.html %}
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en-us">
 
 {% include head.html %}
@@ -11,10 +30,10 @@
     <div class="headerBackground subPageHeaderBackground">
         <div class="container subPageContainer">
         {% include header.html %}
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/QIdhdIkoZZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
         </div>
         {% include appstoreimages.html %}
     </div>
 </body>
 
-</html>
+</html> -->
